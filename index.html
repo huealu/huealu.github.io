@@ -1,113 +1,416 @@
 <!DOCTYPE html>
-<html lang="en">
+<html leng="en">
+
     <head>
+        <title>Hue Dinh | Computer Scientist</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="My webpage">
-        <meta name="keywords" content="HTML, CSS, JavaScript">
-        <meta name="author" content="HueDinh">
-        <title> Hue Dinh </title>
-        <link href="style.css" rel="stylesheet" />
+        <meta name="keywords" content="HTML, CSS, JavaScript, Data Science, AI">
+        <meta name="author" content="Hue Dinh">
+        <link href="main.css" rel="stylesheet" />
     </head>
 
-    <body style="zoom:1;">
-        <!--Top header of the web page-->
-        <header>
-            <div class="wrapper">
-                <div class="top">
-                    <div class="top-name">
-                        <h1 class="header-name-top">Hue Alu</h1>
-                    </div>
-        
-                    <div class = "top-header">
-                        <a href=""> Home</a>
-                        <a href=""> Blog</a>
-                        <a href=""> Life</a>
-                        <a href=""> Archivement</a>
-                        <a href=""> Traveling</a>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <hr>
-        
+    <body>
 
-        <main class="page_content">
-            <div class="wrapper">              
-                <div>
-                    <header class="body-header">The first page of my website</header>
+        <!-- Top -->
+        <div class="top_header wrapper style">
+
+            <div class = "inner">
+                <a class="sub-title" href="">Hue Dinh| Hue Alu</a>
+                
+
+                <div class="top-bar">
+                    <button id="nav-bttn" class="top-nav-icon nav-button" >Menu</button>
+                    <nav id="drop-down" class="top-bar-list">
+                        <a href="#about-me">About me</a>
+                        <a href="#education">Education</a>
+                        <a href="#work-experience">Work Experience</a>
+                        <a href="#project">Personal Projects</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#contact">Contact</a>
+                    </nav>
                 </div>
-        
-                <div class="body-part">
-                    <p>
-                        <a href="https://www.instagram.com/hue_alu/">
-                        <img class= "font-image" alt="Hue Dinh" src = "Images/HueDinhImages.jpg" width="200" height="250">
-                        </a>
-                    </p>
-                    <p>I am Hue Dinh, a master's student in Computer Science, and a traveler. 
+            
+            </div>
+
+        </div>
+
+
+
+        <!-- Main Content -->
+        <div>
+
+            <!-- Introduction -->
+            <section id="about-me" class="wrapper style1">
+
+                <div id="top-intro">
+                    <div class="inner">
+                        
+                        <img class="my-img" alt="Hue Dinh" src = "Images/avatar.jpg" width="300" height="300">
+
+                        <h1 class="intro-name">Hue Dinh</h1>
+                        <p>AI Research Associate II at Conrad Blucher Institute for Surveying & Science</p>
+                    </div>
+
+                </div>
+
+
+                <div class="content">
+                    <h1>About me</h1>
+                    <p>I am Hue Dinh, an AI Researcher, a Software Engineer, and a traveler. 
                         I am currently working on Machine Learning and Deep Learning Application 
                         for Environmental Science in iCore Lab and CBI at Texas A&M Corpus Christi. 
                         I am a Graduate Research Assistant sponsored by NSF AI Institute for Research 
                         on Trustworthy AI in Weather, Climate, and Coastal Oceanography (AI2ES) to develop 
-                        a deep neural networks model for coastal fog prediction in the Corpus Christi Area</p> <br>
+                        a deep neural networks model for coastal fog prediction in the Corpus Christi Area</p>
+                    
                     <p>Previously, I was with Intertek Vietnam Ltd and Mitsubishi Elevator Vietnam Co., Ltd.
                         I graduated from Chonnam National University, South Korea with a master's degree in 
                         Environment and Energy Engineering and a Bachelor's at Vietnam National University - 
                         University of Science.
-                        In my free time, I enjoy reading and traveling.</p> <br>
+                        In my free time, I enjoy reading and traveling.</p>
+                        
                     <p>Experienced Master with a demonstrated history of working in the mechanical or 
                         industrial engineering industry. Skilled in Event Management, Inspection, 
                         Microsoft Office, Risk Assessment, and Training. Strong engineering professional 
                         with a Master’s Degree focused in Environment and Energy Engineering from Chonnam 
                         National University.</p>
                 </div>
+
+            </section>
+
+
+            <!-- Education -->
+            <section id="education" class="wrapper style2">
+
+                <div class="content">
+
+                    <div class="inner">
+                        <h1>Education</h1>
+                
+                        <!-- master of science - computer science-->
+                        <div>
+                            <h3>MASTER OF SCIENCE (MS)</h3>
+                            <p>Texas A&M University-Corpus Christi, Computer Science</p>
+                            <p>Jan 2019 - May 2021</p>
+                            <p>Achievement: President's List</p>
+                        </div>
+                        
+                        <!-- master of engineering-->
+                        <div>
+                            <h3>MASTER OF ENGINEERING (ME)</h3>
+                            <p>Chonnam National University, Environment and Energy Engineering</p>
+                            <p>Sep 2014 - Aug 2016</p>
+                            <p>Achievement: Scholarship for Excellent Graduate Student</p>
+                        </div>
+
+                        <!-- bachelor of science-->
+                        <div>
+                            <h3>BACHELOR OF SCIENCE (BS)</h3>
+                            <p>Vietnam National University - Ho Chi Minh City- University of Science, Environmental Technology</p>
+                            <p>Sep 2009 - Nov 2013</p>
+                            <p>Achievement: Top 10% (7.36/10)</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+            <!-- Work Experience-->
+            <section id="work-experience" class="wrapper style3">
+
+                <div class="content">
+                    <div class="inner">
+                        <h1>Work Experience</h1>
+
+                        <div class="features">
+                            <!-- Most recent job -->
+                            <section>
+                                <h3>AI Research Associate II</h3>
+                                <p>Conrad Blucher Institute for Surveying & Science</p>
+                                <p>Texas, United States</p>
+                                <p>Jun 2021 - Present</p>
+
+                                <h4><u>Descriptions</u></h4>
+                                <ul>
+                                    <li>Developed operational Machine Learning models for Thunderstorm and Fog Prediction using 10TB unstructured data.</li>
+                                    <br>
+                                    <li>Built a data pipeline to cleanse and wrangle data online via AWS.</li>
+                                    <br>
+                                    <li>Technologies: Python and SQL.</li>
+                                </ul>
+                            </section>
+
+
+                            <!-- Previous job -->
+                            <section>
+                                <h3>Graduate Research Assistant</h3>
+                                <p>Texas A&M University-Corpus Christi</p>
+                                <p>Texas, United States</p>
+                                <p>Jun 2019 - May 2021</p>
+
+                                <h4><u>Descriptions</u></h4>
+                                <ul>
+                                    <li>Developed deep learning (Variational Autoencoders) models to 
+                                    predict fog using 4TB unstructured meteorological data in high-performance 
+                                    computing Linux cluster, which generated higher skillful prediction than the 
+                                    ensemble prediction system of National Weather Service and sped up 10X 
+                                    through GPU processing.</li>
+                                    <br>
+                                    <li>Built a pipeline to cleanse and wrangle meteorological data to visualize 
+                                    and classify visibility level</li>
+                                    <br>
+                                    <li>Technologies: Python, R and SQL.</li>
+                                </ul>
+
+                            </section>
+
+
+                            <!-- Previous job -->
+                            <section>
+                                <h3>Technical Consultant</h3>
+                                <p>Intertek Vietnam Ltd.</p>
+                                <p>Ho Chi Minh, Vietnam</p>
+                                <p>Nov 2016 - Jan 2019</p>
+
+                                <h4><u>Descriptions</u></h4>
+                                <ul>
+                                    <li>Managed quality assurance and testing data for clients via ETL system</li>
+                                    <br>
+                                    <li>Managed testing protocols and data of global clients of American and 
+                                    European retailers using LIMS system</li>
+                                </ul>
+
+                            </section>
+
+
+                            <!-- Previous job -->
+                            <section>
+                                <h3>Graduate Research Assistant</h3>
+                                <p>Chonnam National University</p>
+                                <p>Gwangju, South Korea</p>
+                                <p>Sep 2014 - Aug 2016</p>
+
+                                <h4><u>Descriptions</u></h4>
+                                <p> Description in here!!!</p>
+
+                            </section>
+
+
+                            <!-- Previous job 
+                            <section>
+                                <h3>Sale Administrator cum ERP Account Manager</h3>
+                                <p>Mitsubishi Elevator Vietnam Co., Ltd. - Ho Chi Minh City, Vietnam</p>
+                                <p>Jan 2014 - Sep 2014 (9 months)</p>
+
+                                <h4><u>Descriptions</u></h4>
+                                <p> Description in here!!!</p>
+
+                            </section>
+                            -->
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </section>
+
+
+            <!-- Personal Projects -->
+            <section id="project" class="wrapper style2">
+
+                <div class="content">
+
+                    <div class="inner">
+                        <h1>Personal Projects</h1>
+                        
+
+                        <div class="features">
+
+                            <!-- Most recent project -->
+                            <section>
+                                <h4>Explainable AI models</h4>
+                                <p>Jan 2021 - May 2021</p>
+                                <p>Description</p>
+                                <a href="" class="swift-button">Learn more</a>
+                            </section>
+
+                            <!-- Other Projects -->
+                            <section>
+                                <h4>Webpage for Online Ordering Foods</h4>
+                                <p>May 2020 - Jul 2020</p>
+                                <p>Description</p>
+                                <a href="" class="swift-button">Learn more</a>
+                            </section>
+
+                            <!-- Other Projects -->
+                            <section>
+                                <h4>Image Caption Generator</h4>
+                                <p>Jan 2020 - May 2020</p>
+                                <p>Description</p>
+                                <a href="" class="swift-button">Learn more</a>
+                            </section>
+
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- Skills -->
+            <section id="skills" class="wrapper style1">
+
+                <div class="content">
+
+                    <div class="inner">
+
+                        <h1>Skills</h1>
+
+                        <!-- Programming Languagues -->
+                        <div>
+                            <h2>Programming Languagues</h2>
+                            
+                            <ul>
+                                <li>Python, C/C++, C#</li>
+                                <li>JavaScript, HTML, CSS, SCSS</li>
+                                <li>SQL, R</li>
+                                <li>MATLAB</li>
+                            </ul>
+
+                        </div>
+
+                        <!-- Machine Learning -->
+                        <div>
+                            <h2>Machine Learning</h2>
+                            
+                            <ul>
+                                <li>TensorFlow</li>
+                                <li>PyTorch</li>
+                                <li>Python</li>
+                                <li>Keras</li>
+                                <li>Scikit-learn</li>
+                                <li>OpenCV</li>
+                                <li>NumPy</li>
+                                <li>Pandas</li>
+                                <li>Matplotlib, Seaborn</li>
+                            </ul>
+
+                        </div>
+
+
+                        <!-- Data science -->
+                        <div>
+                            <h2>Data Science</h2>
+                            
+                            <ul>
+                                <li>Data Pipeline: Cleansing, Wrangling, Visualization, Modeling, and Interpretation</li>
+                                <li>Experimental Design</li>
+                            </ul>
+
+                        </div>
+
+
+                        <!-- Software -->
+                        <div>
+                            <h2>Development Software</h2>
+                            <ul>
+                                <li>Visual Studio, Anaconda, RStudio</li>
+                                <li>AWS, Azure</li>
+                                <li>Git, GitHub, GitLab</li>
+                                <li>Docker, Kubernetes</li>
+                                <li>Unity</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- Contact information -->
+            <section id="contact" class="wrapper style2">
+
+                <div class="content">
+
+                    <div class="inner">
+
+                        <h1>Contact</h1>
+
+                        <div class="contact-info">
+                            
+                            <h2>Email</h2>
+                            <ul class="email-contact">
+                                <li>
+                                    <a href="mailto:huehong.dinh@gmail.com">huehong.dinh@gmail.com </a>                                   </a>
+                                </li>
+                                <li>
+                                    <a href="mailto:thihue.dinh@islander.tamucc.edu">thihue.dinh@islander.tamucc.edu</a>
+                                </li>
+                            </ul>
+                        
+                        </div>
+
+                        <div>
+                            <h2>Social media</h2>
+
+                            <ul class="icon-social-media">
+                                <li>
+                                    <a href="https://github.com/huealu">
+                                    <span><img src="Images/GitHub-Mark-64px.png" width="40" height="40" color="rgba(255, 255, 255, 0.70)"></span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="https://www.linkedin.com/in/huehongdinh/">
+                                    <span><img src="Images/linkedin-icon.PNG" width="40" height="40"></span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="https://www.instagram.com/hue_alu/">
+                                    <img src="Images/instagram-icon.PNG" width="40" height="40"></span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="https://www.facebook.com/huealu/">
+                                    <img src="Images/facebook-icon.png" width="40" height="40" color="rgba(255, 255, 255, 0.70)"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+        </div>
+
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer wrapper style">
+                <ul class="footer-icon">
+                    <li>&copy; Hue Dinh</li>
+                    <li>2021</li>
+                </ul>
             </div>
-        </main>
-        <hr>
+        </footer>
+
+
+        <!-- scripts -->
+        <script src="main.js"></script>
         
     </body>
-</html>
 
-<footer>
-    <div class="wrapper">
-        <h2 style="text-align:left">Hue Dinh</h2>
-        <div class="foot-content">
-            <!--The left column-->
-            <div class="contact-info">
-                <ul>
-                    <li>
-                        <a>
-                        <span><img src="Images/email-icon.PNG" width="20" height="20"></span>
-                        <span>huehong.dinh@gmail.com</span>
-                        </a>
-                    </li>
-                    <li><a href="https://github.com/huealu">
-                        <span><img src="Images/GitHub-Mark-64px.png" width="20" height="20"></span>
-                        <span>huealu</span>
-                        </a></li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/huehongdinh/">
-                        <span><img src="Images/linkedin-icon.PNG" width="20" height="20"></span>
-                        <span>huehongdinh</span>
-                        </a>
-                    </li>
-                </ul>
-                
-            </div>
-            
-            <!--The right column-->
-            <div class="footer-subscribe"> 
-                <p>Hue Dinh is an Environmental Scientist and Computer Scientist.
-                    She is currently working at the Conrd Blucher Institute - Texas A&M University-Corpus Christi.
-                    She loves traveling, coding, and reading.
-                </p>
-                <p style="color: grey;">Subscribe to be updated about her upcoming stories!</p>
-                <form>
-                    <label for="email-address">Email Address</label>
-                    <input type="text" id="email-address" name="email-address"><br><br>
-                    <button style="font-size:1.5rem; background-color:grey; color:whitesmoke;">Subscribe</button>
-                </form>
-            </div>
-        </div>
-    </div>
-</footer>
+</html>

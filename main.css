@@ -1,0 +1,366 @@
+/*
+
+*/
+
+body {
+    line-height: 1;
+    color: rgba(255, 255, 255, 0.70);
+}
+
+html, body, footer, div, h1, h2, h3, li, ul, section, span {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+    font-family: serif;
+}
+
+
+div, section, footer, nav {
+    display: block;
+}
+
+a {
+    margin: 1em 1em 1em 0;
+    text-decoration: none;
+    color: inherit;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 0 0 0 0;
+}
+
+h1 {
+    font-size: 2.75em;
+    color: whitesmoke;
+}
+
+h2 {
+    font-size: 2em;
+    color:whitesmoke;
+}
+
+h3 {
+    font-size: 1.7em;
+    color:whitesmoke;
+}
+
+h4 {
+    font-size: 1.5em;
+}
+
+p {
+    font-size: 1.2em;
+    color: inherit;
+    line-height: 1.7;
+    margin: 0 0 0 0;
+}
+
+
+img {
+    display: block;
+    text-align: center;
+}
+
+
+ul {
+    margin-left: 50px;
+}
+
+ul li {
+    font-size: 1.2em;
+    margin: 0.1em 0.1em 0 0;
+}
+
+/* Top Header and top bar */
+
+.top_header > .inner {
+    display: block;
+    margin: 0.25em 0.5em 0.25em 0.5em;
+}
+
+.top_header a {
+    color: whitesmoke;
+}
+
+
+.top_header {
+    display: block;
+    line-height: 40px;
+    font-size: 25px;
+    position: relative;
+    padding: 0.5em 1em 0.5em 1em;
+}
+
+.sub-title {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.top-bar {
+    float: right;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.top_header a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+/* Introduction */
+
+#top-intro > .inner {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding: 1em 1em 1em 1em;
+}
+
+img.my-img {
+    border-radius: 50%;
+    margin-top: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#top-intro > .inner p {
+    font-size: 1.75em;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about-me > .content {
+    padding: 2em 4em 2em 4em;  
+}
+
+
+/*        Education      */
+#education > .content {
+    padding: 2em 4em 2em 4em;
+}
+
+#education > .content > .inner > div {
+    padding: 1em 1em 1em 1em;
+}
+
+
+
+/*        Work experience      */
+
+#work-experience > .content {
+    padding: 2em 4em 2em 2em;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 2em 0;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.features section {
+    margin: 1em 1em 1em 1em;
+    padding: 2em 2em 2em 5em;
+    width: 35%;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    background: rgba(255, 255, 255, 0.05);
+    position: relative;
+    border-radius: 0.5em;
+}
+
+ul.features li {
+    font-size: 1.2em;
+}
+
+/*        Project     */
+#project > .content {
+    padding: 2em 4em 2em 2em;
+}
+
+
+/*        Skills   */
+#skills > .content {
+    padding: 2em 4em 2em 2em;
+}
+
+#skills > .content > .inner > div {
+    padding: 1em 1em 1em 1em;
+}
+
+
+/*        contact   */
+#contact > .content {
+    padding: 2em 4em 2em 2em;
+}
+
+#contact > .content > .inner > div {
+    padding: 1em 1em 1em 1em;
+}
+
+
+
+ul.contact-info li{
+    list-style: none;
+    color: whitesmoke;
+    display: flex;
+    margin: 0 0 0 0;
+    padding-left: 0;
+}
+
+.email-contact {
+    list-style: none;
+    padding: 0;
+}
+
+.icon-social-media {
+    list-style: none;
+    cursor: default;
+    padding: 0;
+}
+
+
+ul.icon-social-media li {
+    display: inline-block;
+    margin: 0 1em 0 0;
+    padding-left:0;
+}
+
+/*      Footer    */
+.footer {
+    display: block;
+    line-height: 40px;
+}
+
+.footer-icon {
+    list-style: none;
+}
+
+ul.footer-icon li {
+    display: inline-block;
+}
+
+/*      Wrapper and Styles    */
+
+.wrapper {
+    position: relative;
+}
+
+.wrapper.style {
+    background-color: #312450;
+}
+
+
+.wrapper.style1 {
+    background-color:#5e42a6;;
+}
+
+
+.wrapper.style2 {
+    background-color: #5052b5;
+}
+
+.wrapper.style3 {
+    background-color: #b74e91;
+}
+
+
+/* Nav button */
+
+.top-nav-icon {
+    margin: 0;
+    overflow: hidden;
+}
+
+.nav-button {
+    color: whitesmoke;
+    font-size: 25px;
+    font-family: inherit;
+    cursor: pointer;
+    background: #312450;
+    border: none;
+    width: 100px;
+    padding: 10px 10px;
+    border: 1px solid grey;
+    border-radius: 10%;
+}
+
+.top-nav-icon:hover {
+    background-color: #8b8991;
+}
+
+
+/*  Some responsive */
+
+
+
+/* Responsive */
+
+@media screen and (max-width: 1199px){
+    .top-bar-list {
+        display: none;
+        position: absolute;
+        background-color: #312450;
+        min-width: 100px;
+        text-decoration: none;
+        box-shadow: 0px 0 0 0 rgba(0,0,0,0.2);
+        z-index: 1;
+        top: 75px;
+        right: 35px;
+        border-radius: 5px;
+    }
+
+    .top-bar-list a {
+        padding: 15px 15px;
+        font-size: 20px;
+        text-decoration: none;
+        display: block;
+        text-align: right;
+        color: whitesmoke;
+        float: none;
+        margin: 0 0 0 10px;
+    }
+
+    .top-nav-icon {
+        display: inline-block;
+        position: relative;
+    }
+
+    .top-bar {
+        overflow: hidden;
+        float: right;
+        border-radius: 10%;
+        padding: 0;
+        background: #312450;
+    }
+
+    .top-nav-icon:hover .top-bar-list {
+        display: block;
+    }
+
+   
+    .show {
+        display: block;
+    }
+    
+    
+}
+
+
+@media screen and (min-width: 1200px) {
+    .top-nav-icon {
+        display: none;
+    }
+}

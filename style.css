@@ -1,159 +1,25 @@
-html body {
-    background-color: white; 
-    min-height: 70%;
-    margin: 0;
-    padding: 0;
-    font-family: serif;
+/*
+
+*/
+
+body {
+    line-height: 1;
 }
 
-.top{
-    display: flex;
-    background-color: white;
-    padding-right: 0px;
-    padding-left: 0px;
-    padding-bottom: -20px;
+
+/* Basic style */
+
+.top_header {
+    display: block;
+    padding: 5px;
+    margin: 5px;
 }
 
-.top-name {
-    display: flex;
-    text-align: center;
-    font-size: 1rem;
-    top: 0px;
-    float: left;
+.sub-title {
     position: relative;
-    padding-left:-20px;
-}
-
-h1:hover {
-    cursor: pointer;
-    text-decoration:underline;
-}
     
-.top-header {
-    display: block;
-    background-color: white;
-    font-size: 1.5rem;
-    float: right;
-    position: absolute;
-    right: 200px;
-    column-rule: 0cm;
-    columns: 5;
-    cursor: pointer;
-    padding: 1rem 1rem;
-    top: 25px;
-    width: 30em;
-    list-style-type: none;
-    margin: 0;
-    padding:0;
-    word-spacing: 2em;
 }
 
-a {
-    text-decoration: none;
-    color: black;
+.top-bar {
+    float: right
 }
-
-.top-header a {
-    float: right;
-    text-align: center;
-    padding: 14px 16px;
-    margin-left: 50px;
-    padding-left: -10px;
-}
-
-.top-header a:hover {
-    cursor: pointer;
-    text-decoration:underline;
-}
-
-@media screen and (max-width: 500px) {
-    .top-header a{
-        float: none;
-        display: block;
-    }
-}
-
-
-div {
-    display: block;
-}
-
-
-.font-image {
-    flex-basis: 30%;
-    cursor: pointer;
-    float: right;
-    padding: 10px;
-}
-
-.wrapper {
-    max-width: 1250px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-right: 30px;
-    padding-left: 30px;
-}
-
-.page_content {
-    background-color: white;
-}
-
-.body-header{
-    font-size: 5rem;
-    margin-bottom: 30px;
-}
-
-.body-part {
-    display: block;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.2rem;
-}
-
-img{
-    text-decoration: underline;
-    max-width: 100%;
-}
-
-footer {
-    text-align: center;
-    padding: 3px;
-    background-color: white;
-}
-
-.foot-content {
-    display: flex;
-}
-
-.contact-info {
-    cursor: pointer;
-    text-align: left;
-    font-size: 1.1rem;
-    width: 300px;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.contact-info ul li {
-    color: black;
-}
-
-.contact-info ul li:hover {
-    text-decoration: rgb(103, 103, 252);
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-.footer-subscribe {
-    display: block;
-    text-align: left;
-    width: 500px;
-    margin-left: 300px;
-    margin-top: -10px;
-    font-size: 1.1rem;
-}
-
