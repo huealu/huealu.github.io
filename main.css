@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 2.75em;
+    font-size: 2.5em;
     color: whitesmoke;
 }
 
@@ -45,16 +45,16 @@ h2 {
 }
 
 h3 {
-    font-size: 1.7em;
+    font-size: 1.5em;
     color:whitesmoke;
 }
 
 h4 {
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 p {
-    font-size: 1.2em;
+    font-size: 1em;
     color: inherit;
     line-height: 1.7;
     margin: 0 0 0 0;
@@ -182,7 +182,7 @@ img.my-img {
 }
 
 ul.features li {
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 /*        Project     */
